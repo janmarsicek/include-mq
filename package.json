@@ -1,0 +1,35 @@
+{
+  "name": "include-mq",
+  "version": "0.0.1-beta.1",
+  "description": "Simplified include-media port to JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janmarsicek/include-mq.git"
+  },
+  "keywords": [
+    "media-queries",
+    "include-media",
+    "css-in-js",
+    "media query",
+    "css",
+    "query",
+    "inline-styles",
+    "responsive"
+  ],
+  "author": "Jan Marsicek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janmarsicek/include-mq/issues"
+  },
+  "homepage": "https://github.com/janmarsicek/include-mq#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0"
+  }
+}
