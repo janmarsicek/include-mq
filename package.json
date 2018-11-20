@@ -1,6 +1,6 @@
 {
   "name": "include-mq",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "Simplified include-media port to JS",
   "main": "index.js",
   "scripts": {
