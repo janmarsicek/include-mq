@@ -1,4 +1,4 @@
-# Include Media Queries
+# Include MQ
 
 ## TODO
 - [ ] installation & example

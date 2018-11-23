@@ -1,4 +1,4 @@
-import includeMedia from './index';
+import includeMedia from '../index';
 
 it(`can be called without arguments and doesn't crash`, () => {
   const mq = includeMedia()();

@@ -1,9 +1,10 @@
 {
   "name": "include-mq",
-  "version": "0.0.1-beta.2",
-  "description": "Simplified include-media port to JS",
+  "version": "0.0.1-beta.3",
+  "description": "Simplified include-media port to CSS-in-JS",
   "main": "index.js",
   "scripts": {
+    "build": "babel --presets es2015 src/index.js -o index.js",
     "test": "jest"
   },
   "repository": {
@@ -27,9 +28,11 @@
   },
   "homepage": "https://github.com/janmarsicek/include-mq#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
     "jest": "^23.6.0"
   }
 }
